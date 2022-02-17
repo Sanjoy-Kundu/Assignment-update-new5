@@ -1,0 +1,65 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.container {
+	background-color: rgba(249, 153, 249, 0.65);
+}
+/*=========================
+Heading title
+=========================*/
+
+.text-center{
+	color: rgb(228, 24, 222);
+	font-size: 30px;
+	font-weight: bolder;
+	margin-bottom: 20px;
+}
+/* =================================
+form input width size 
+==============================*/
+.input-1 {
+	margin-left: 20px;
+}
+.input-2{
+margin-left: 25px;
+}
+.input-3{
+    margin-left: 15px;
+}
+.center-container {
+	margin: 0 auto;;
+}
+
+/*============================
+image resize
+==============================*/
+img{
+    width: 89%;
+    height: 93%;
+}
+/* ==============================
+form background set
+=============================*/
+.set-bg{
+	background-color: rgb(219 170 219 / 65%);
+}
+
+#saving-input{
+	width: 100px;
+}
+.save-money{
+	background-color: violet;
+    border: 1px solid #fff;
+    padding: 5px 19px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+.caculate-btn{
+	background-color: violet;
+    border: 1px solid #fff;
+    padding: 5px 19px;
+    border-radius: 10px;
+    font-weight: bolder;
+}

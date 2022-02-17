@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Assignment-5</title>
+	<!------------bootsrap css link------------>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	<!-------------css link -------------------->
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+	<div class="container">
+		<div class="center-container">
+			<div class="row cols-lg-12 col-sm-12">
+				<h1 class="text-center">Money Master</h1>
+				<div class="col-md-7 cols-sm-12">
+					<!-----------Images here------------>
+					<img src="images/money.jpg" alt="">
+				</div>
+				<div class="col-md-5 col-sm-12 set-bg">
+					<h1>Income</h1>
+					<!----------Form Here-------------->
+					<div class="form">
+						<p>Income: <input type="number " id="income-input"></p>
+						<h2>Expences</h2>
+						<p><span>Food: </span><input type="number " id="food-input" class="input-1"></p>
+						<p><span>Rent:</span> <input type="number " id="rent-input" class="input-2"></p>
+						<p><span>Cloths:</span> <input type="number " id="cloth-input" class="input-3"></p>
+						<button class="caculate-btn" onclick=" expencesAdd()">Calculate</button>
+					</div>
+					<!---------------Balance expences part here part here------------------->
+					<p class="fw-bolder">Total Expences : <span id="total-expences">00</span></p>
+					<p class="fw-bolder">Balance: <span id="balace-text">00</span></p>
+					<p class="fw-bolder">save: <input type="number" id="saving-input"> % <button
+							class="save-money">Save</button></p>
+					<!------------saving part here--------------------->
+					<p class="fw-bolder">Saving Amount <span id="saving-amount">00</span></p>
+					<p class="fw-bolder">Remaining Balance <span id="remaining-balance">00</span></p>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+	<!------------Bootstap js link ------------>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+	<!----------------javascript link--------->
+	<script src="apps.js"></script>
+</body>
+
+</html>
